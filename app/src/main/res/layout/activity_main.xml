@@ -9,6 +9,100 @@
     tools:context=".MainActivity" >
 
     <Button
+        android:id="@+id/nzdj5"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#000000"
+        android:text="P"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588"
+        app:strokeColor="#00FF04"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/nzdj4"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#000000"
+        android:text="L"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588"
+        app:strokeColor="#00FF04"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/nzdj2"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#000000"
+        android:text="Skala"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        app:strokeColor="#00FF04"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/nzdj3"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#000000"
+        android:text="Przezroczystość"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        app:strokeColor="#00FF04"
+        app:strokeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/tbprzezr"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="none|number"
+        android:text="Przezroczystość"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zdjecie"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <EditText
+        android:id="@+id/tbskala"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="none|number"
+        android:text="Skala"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zdjecie"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <Button
         android:id="@+id/nzdj"
         android:layout_width="136dp"
         android:layout_height="61dp"
@@ -51,4 +145,20 @@
         app:layout_constraintVertical_bias="0.456"
         app:strokeColor="#00FF04"
         app:strokeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/tbobrot"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="none|number"
+        android:text="Ile stopni?"
+        android:textColor="#00FF04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zdjecie"
+        app:layout_constraintVertical_bias="0.347" />
 </androidx.constraintlayout.widget.ConstraintLayout>
