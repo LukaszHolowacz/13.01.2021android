@@ -65,5 +65,10 @@ class MainActivity : AppCompatActivity() {
             val obrot = findViewById<EditText>(R.id.tbobrot).text.toString()
             findViewById<ImageView>(R.id.zdjecie).rotationY = obrot.toFloat()
         }
+
+        findViewById<Button>(R.id.skalabtn).setOnClickListener {
+            val skala = findViewById<EditText>(R.id.tbskala).toString()
+            findViewById<ImageView>(R.id.zdjecie).setScaleX(skala.toFloat())
+        }
     }
 }
