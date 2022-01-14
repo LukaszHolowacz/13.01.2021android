@@ -1,10 +1,10 @@
 package com.example.a13012021
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageView
+import android.widget.Button as Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +54,16 @@ class MainActivity : AppCompatActivity() {
             else if(i==4){
                 findViewById<ImageView>(R.id.zdjecie).setImageResource(R.drawable.papiexz4)
             }
+        }
+
+        findViewById<Button>(R.id.owlbtn).setOnClickListener {
+            val obrot = findViewById<EditText>(R.id.tbobrot).text.toString()
+            findViewById<ImageView>(R.id.zdjecie).rotationX = obrot.toFloat()
+        }
+
+        findViewById<Button>(R.id.owpbtn).setOnClickListener {
+            val obrot = findViewById<EditText>(R.id.tbobrot).text.toString()
+            findViewById<ImageView>(R.id.zdjecie).rotationY = obrot.toFloat()
         }
     }
 }

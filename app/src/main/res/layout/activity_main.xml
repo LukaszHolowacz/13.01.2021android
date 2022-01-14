@@ -9,11 +9,11 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/nzdj5"
+        android:id="@+id/owpbtn"
         android:layout_width="60dp"
         android:layout_height="61dp"
         android:backgroundTint="#000000"
-        android:text="P"
+        android:text="Oś Y"
         android:textColor="#00FF04"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,11 +25,11 @@
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/nzdj4"
+        android:id="@+id/owlbtn"
         android:layout_width="60dp"
         android:layout_height="61dp"
         android:backgroundTint="#000000"
-        android:text="L"
+        android:text="Oś X"
         android:textColor="#00FF04"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/nzdj2"
+        android:id="@+id/skalabtn"
         android:layout_width="136dp"
         android:layout_height="61dp"
         android:backgroundTint="#000000"
@@ -57,7 +57,7 @@
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/nzdj3"
+        android:id="@+id/przezrbtn"
         android:layout_width="136dp"
         android:layout_height="61dp"
         android:backgroundTint="#000000"
